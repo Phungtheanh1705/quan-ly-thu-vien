@@ -53,7 +53,7 @@ Thay vì quản lý bằng sổ sách hoặc Excel rời rạc, hệ thống man
 
 ## 🚀 3. Hình ảnh các chức năng
 ### Trang đăng nhập
-<img width="1902" height="931" alt="image" src="https://github.com/user-attachments/assets/c982cf12-24f8-4137-8ad4-d6c8768c5e54" />
+<img width="1902" height="931" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-10%20234554.png?raw=true" />
 ### Trang dashboard admin
 <img width="1885" height="935" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20153923.png?raw=true" />
 ### Trang dashboard cán bộ 
