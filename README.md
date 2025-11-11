@@ -217,21 +217,22 @@ Mở file config.php (hoặc .env) trong project, chỉnh thông tin DB:
 ```bash
 
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "123456789";       // XAMPP mặc định không có mật khẩu
-$db   = "ql_thuvien";
-
-$conn = new mysqli($host, $user, $pass, $db);
-
-if ($conn->connect_errno) {
-    die("❌ Kết nối thất bại: " . $conn->connect_error);
-}
-
-// echo "✅ Kết nối database thành công!";
+    function getDbConnection() {
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "quan_ly_doan_vien";
+        $port = 3306;
+        $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
+        if (!$conn) {
+            die("Kết nối database thất bại: " . mysqli_connect_error());
+        }
+        mysqli_set_charset($conn, "utf8");
+        return $conn;
+    }
 ?>
-
 ```
+
 ### 4.5. Chạy hệ thống
 Mở XAMPP Control Panel → Start Apache và MySQL
 
