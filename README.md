@@ -66,20 +66,14 @@ Thay vì quản lý bằng sổ sách hoặc Excel rời rạc, hệ thống man
 <img width="1892" height="938" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20155431.png?raw=true" />
 ### Trang giới thiệu
 <img width="1882" height="937" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20155821.png?raw=true" />
-### Trang quản lý lịch sử tham gia
-<img width="1882" height="937" alt="image" src="https://github.com/user-attachments/assets/3b6a90e7-e622-4cc3-ab67-3218b195f8ed" />
+### Trang sách
+<img width="1882" height="937" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20160004.png?raw=true" />
 ### Trang quản lý đoàn phí
 <img width="1887" height="934" alt="image" src="https://github.com/user-attachments/assets/f7bcf2a8-013e-4349-9a98-80f7da9bf4b4" />
-### Trang quản lý điểm rèn luyện 
-<img width="1888" height="944" alt="image" src="https://github.com/user-attachments/assets/5a870eb0-4971-4bc1-8f8a-480bf1f79e0e" />
-### Trang quản lý sự kiện 
-<img width="1904" height="935" alt="image" src="https://github.com/user-attachments/assets/4699e1eb-95f6-4c46-be56-113dbeddc359" />
-### Trang quản lý khen thưởng
-<img width="1890" height="942" alt="image" src="https://github.com/user-attachments/assets/258a160a-410a-439c-b23e-fd11b25533b9" />
-### Trang quản lý thông báo
-<img width="1904" height="938" alt="image" src="https://github.com/user-attachments/assets/785f6833-db9a-4d3b-97f2-16097d0520c9" />
-### Trang quản lý tài khoản
-<img width="1902" height="930" alt="image" src="https://github.com/user-attachments/assets/e524b74a-090a-4de3-ad52-9db53e7b4e85" />
+### Trang chi tiết sách
+<img width="1888" height="944" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20162527.png?raw=true" />
+### Trang mượn/trả sách
+<img width="1904" height="935" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20162602.png?raw=true" />
 ## ⚙️ 4. Cài đặt
 
 ### 4.1. Cài đặt công cụ, môi trường và các thư viện cần thiết
