@@ -58,10 +58,10 @@ Thay vì quản lý bằng sổ sách hoặc Excel rời rạc, hệ thống man
 <img width="1885" height="935" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20153923.png?raw=true" />
 ### Trang dashboard quản lý sách
 <img width="1886" height="940" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20154001.png?raw=true" />
-### Trang dashboard đoàn viên     
-<img width="1890" height="932" alt="image" src="https://github.com/user-attachments/assets/2b5e861a-8a59-4505-8149-4ceb1ec6b503" />
-### Trang quản lý liên chi đoàn 
-<img width="1901" height="939" alt="image" src="https://github.com/user-attachments/assets/f3c88b32-5c7e-4911-b977-303523e5e4e3" />
+### Trang dashboard sinh viên     
+<img width="1890" height="932" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20154046.png?raw=true" />
+### Trang quản lý mượn/trả sách
+<img width="1901" height="939" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20154108.png?raw=true" />
 ### Trang quản lý chi đoàn
 <img width="1892" height="938" alt="image" src="https://github.com/user-attachments/assets/0ed13de0-2745-4770-b045-980c513a380d" />
 ### Trang quản lý đoàn viên
