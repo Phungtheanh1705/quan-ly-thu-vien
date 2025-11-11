@@ -1,0 +1,50 @@
+title,author,category,quantity,image
+"Clean Code","Robert C. Martin","CNTT",8,clean_code.jpg
+"The Pragmatic Programmer","Andrew Hunt","CNTT",6,the_pragmatic_programmer.jpg
+"Introduction to Algorithms","Thomas H. Cormen","CNTT",5,introduction_to_algorithms.jpg
+"Design Patterns","Erich Gamma","CNTT",7,design_patterns.jpg
+"Code Complete","Steve McConnell","CNTT",6,code_complete.jpg
+"Deep Learning","Ian Goodfellow","CNTT",4,deep_learning.jpg
+"Artificial Intelligence A Modern Approach","Stuart Russell","CNTT",3,artificial_intelligence_a_modern_approach.jpg
+"Computer Networking","James F. Kurose","CNTT",5,computer_networking.jpg
+"Learning Python","Mark Lutz","CNTT",9,learning_python.jpg
+"Head First Java","Kathy Sierra","CNTT",6,head_first_java.jpg
+"Đắc Nhân Tâm","Dale Carnegie","Kỹ năng sống",12,dac_nhan_tam.jpg
+"Nhà Giả Kim","Paulo Coelho","Văn học",10,nha_gia_kim.jpg
+"Tư Duy Nhanh Và Chậm","Daniel Kahneman","Kinh tế - Triết lý",7,tu_duy_nhanh_va_cham.jpg
+"Khéo Ăn Nói Sẽ Có Được Thiên Hạ","Trác Nhã","Kỹ năng",8,kheo_an_noi.jpg
+"7 Thói Quen Hiệu Quả","Stephen Covey","Kỹ năng sống",11,7_thoi_quen_hieu_qua.jpg
+"Elon Musk","Ashlee Vance","Tiểu sử",4,elon_musk.jpg
+"Start With Why","Simon Sinek","Kinh doanh",6,start_with_why.jpg
+"Think And Grow Rich","Napoleon Hill","Kinh doanh",9,think_and_grow_rich.jpg
+"Dám Bị Ghét","Kishimi Ichiro","Tâm lý",10,dam_bi_ghet.jpg
+"Sapiens – Lược sử loài người","Yuval Noah Harari","Khoa học - Lịch sử",8,sapiens_luoc_su_loai_nguoi.jpg
+"Homo Deus – Lược sử tương lai","Yuval Noah Harari","Khoa học",5,homo_deus.jpg
+"Những Kẻ Xuất Chúng","Malcolm Gladwell","Kinh tế - Tư duy",7,nhung_ke_xuat_chung.jpg
+"Nghĩ Giàu Làm Giàu","Napoleon Hill","Kinh doanh",10,nghi_giau_lam_giau.jpg
+"Cha Giàu Cha Nghèo","Robert Kiyosaki","Kinh doanh",14,cha_giau_cha_ngheo.jpg
+"Hiểu Về Trái Tim","Minh Niệm","Tâm lý",6,hieu_ve_trai_tim.jpg
+"Muôn Kiếp Nhân Sinh","Nguyên Phong","Tâm linh",5muon_kiep_nhan_sinh.jpg
+"Harry Potter và Hòn đá Phù thủy","J.K. Rowling","Truyện viễn tưởng",15,harry_potter_hon_da_phu_thuy.jpg
+"Harry Potter và Phòng chứa bí mật","J.K. Rowling","Truyện viễn tưởng",13,harry_potter_phong_chua_bi_mat.jpg
+"Harry Potter và Tên tù nhân ngục Azkaban","J.K. Rowling","Truyện viễn tưởng",12,harry_potter_ten_tu_nhan_azkaban.jpg
+"Sherlock Holmes – Tập 1","Arthur Conan Doyle","Trinh thám",7,sherlock_holmes_tap_1.jpg
+"Sherlock Holmes – Tập 2","Arthur Conan Doyle","Trinh thám",6,sherlock_holmes_tap_2.jpg
+"Ba Chàng Ngốc","Chetan Bhagat","Văn học",9,ba_chang_ngoc.jpg
+"Cuộc sống không giới hạn","Nick Vujicic","Kỹ năng sống",8,cuoc_song_khong_gioi_han.jpg
+"Tuổi Trẻ Đáng Giá Bao Nhiêu","Rosie Nguyễn","Kỹ năng sống",10,tuoi_tre_dang_gia_bao_nhieu.jpg
+"Tony Buổi Sáng","Tony","Tản văn",11,tony_buoi_sang.jpg
+"Không Gia Đình","Hector Malot","Văn học",4,khong_gia_dinh.jpg
+"Hoàng Tử Bé","Antoine de Saint-Exupéry","Thiếu nhi",13,hoang_tu_be.jpg
+"Cuốn Theo Chiều Gió","Margaret Mitchell","Văn học",3,cuon_theo_chieu_gio.jpg
+"Suối Nguồn","Ayn Rand","Văn học",5,suoi_nguon.jpg
+"Nhà Thờ Đức Bà Paris","Victor Hugo","Văn học cổ điển",4,nha_tho_duc_ba_paris.jpg
+"Les Misérables","Victor Hugo","Văn học cổ điển",4,les_miserables.jpg
+"The Great Gatsby","F. Scott Fitzgerald","Văn học",6,the_great_gatsby.jpg
+"To Kill a Mockingbird","Harper Lee","Văn học",7,to_kill_a_mockingbird.jpg
+"1984","George Orwell","Chính trị - Xã hội",5,1984.jpg
+"Animal Farm","George Orwell","Chính trị - Xã hội",6,animal_farm.jpg
+"Hành Trình Về Phương Đông","Nguyên Phong","Tâm linh",3,hanh_trinh_ve_phuong_dong.jpg
+"Những Người Khốn Khổ","Victor Hugo","Văn học",2,nhung_nguoi_khon_kho.jpg
+"Bắt Trẻ Đồng Xanh","J.D. Salinger","Văn học",8,bat_tre_dong_xanh.jpg
+"Cánh Cửa Bí Mật","Nguyễn Nhật Ánh","Thiếu nhi",9-canh_cua_bi_mat.jpg
