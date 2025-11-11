@@ -68,8 +68,6 @@ Thay vì quản lý bằng sổ sách hoặc Excel rời rạc, hệ thống man
 <img width="1882" height="937" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20155821.png?raw=true" />
 ### Trang sách
 <img width="1882" height="937" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20160004.png?raw=true" />
-### Trang quản lý đoàn phí
-<img width="1887" height="934" alt="image" src="https://github.com/user-attachments/assets/f7bcf2a8-013e-4349-9a98-80f7da9bf4b4" />
 ### Trang chi tiết sách
 <img width="1888" height="944" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20162527.png?raw=true" />
 ### Trang mượn/trả sách
