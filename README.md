@@ -64,8 +64,8 @@ Thay vì quản lý bằng sổ sách hoặc Excel rời rạc, hệ thống man
 <img width="1901" height="939" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20154108.png?raw=true" />
 ### Trang người dùng
 <img width="1892" height="938" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20155431.png?raw=true" />
-### Trang quản lý đoàn viên
-<img width="1882" height="937" alt="image" src="https://github.com/user-attachments/assets/763dbe71-4984-459f-8348-18ce505479cc" />
+### Trang giới thiệu
+<img width="1882" height="937" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20155821.png?raw=true" />
 ### Trang quản lý lịch sử tham gia
 <img width="1882" height="937" alt="image" src="https://github.com/user-attachments/assets/3b6a90e7-e622-4cc3-ab67-3218b195f8ed" />
 ### Trang quản lý đoàn phí
