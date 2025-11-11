@@ -89,9 +89,9 @@ Clone project về thư mục `htdocs` của XAMPP (ví dụ ổ C):
 
 ```bash
 cd C:\xampp\htdocs
-https://github.com/tyanzuq2811/BTL_Quan_ly_doan_vien.git
+https://github.com/Phungtheanh1705/quan-ly-thu-vien.git
 Truy cập project qua đường dẫn:
-👉 http://localhost/authentication_login.
+👉 http://localhost:8080/library_management
 ```
 ### 4.3. Setup database
 Mở XAMPP Control Panel, Start Apache và MySQL
@@ -99,9 +99,117 @@ Mở XAMPP Control Panel, Start Apache và MySQL
 Truy cập MySQL WorkBench
 Tạo database:
 ```bash
-CREATE DATABASE IF NOT EXISTS quan_ly_doan_vien
-   CHARACTER SET utf8mb4
-   COLLATE utf8mb4_unicode_ci;
+-- XÓA DATABASE CŨ (nếu có)
+DROP DATABASE IF EXISTS ql_thuvien;
+
+-- TẠO DATABASE MỚI
+CREATE DATABASE ql_thuvien CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE ql_thuvien;
+
+-- =======================
+-- BẢNG ADMIN
+-- =======================
+CREATE TABLE IF NOT EXISTS admin (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    fullname VARCHAR(100)
+) ENGINE=InnoDB;
+
+INSERT INTO admin (username, password, fullname)
+VALUES ('admin', 'admin123', 'Quản trị viên');
+
+-- =======================
+-- BẢNG USERS
+-- =======================
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    fullname VARCHAR(100),
+    email VARCHAR(100),
+    phone VARCHAR(20) DEFAULT NULL
+) ENGINE=InnoDB;
+
+INSERT INTO users (username, password, fullname, email, phone)
+VALUES 
+('sv01', '123456', 'Nguyễn Văn A', 'sv01@example.com', '0987654321'),
+('sv02', '123456', 'Trần Thị B', 'sv02@example.com', '0912345678');
+
+-- =======================
+-- BẢNG BOOKS
+-- =======================
+CREATE TABLE IF NOT EXISTS books (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255),
+    category VARCHAR(100),
+    quantity INT DEFAULT 1,
+    image VARCHAR(255) DEFAULT NULL,
+    description TEXT
+) ENGINE=InnoDB;
+
+INSERT INTO books (title, author, category, quantity)
+VALUES 
+('Lập Trình PHP', 'Nguyễn Văn B', 'CNTT', 5),
+('Cơ Sở Dữ Liệu', 'Trần Văn C', 'CNTT', 3),
+('Kinh Tế Học', 'Lê Văn D', 'Kinh tế', 10),
+('Toán Cao Cấp', 'Phạm Văn E', 'Toán học', 7),
+('Văn Học Việt Nam', 'Nguyễn Thị F', 'Văn học', 4);
+
+-- =======================
+-- BẢNG BORROWS
+-- =======================
+CREATE TABLE IF NOT EXISTS borrows (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    book_id INT NOT NULL,
+    date_borrow DATE NOT NULL,
+    due_date DATE NOT NULL,
+    date_return DATE DEFAULT NULL,
+    status VARCHAR(20) DEFAULT 'Đang mượn',
+    overdue TINYINT(1) DEFAULT 0,
+    fine_amount DECIMAL(10,2) DEFAULT 0,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE
+) ENGINE=InnoDB;
+
+-- Dữ liệu ví dụ mượn sách
+INSERT INTO borrows (user_id, book_id, date_borrow, due_date, date_return, status, overdue, fine_amount)
+VALUES
+(1, 1, '2025-11-01', '2025-11-10', NULL, 'Đang mượn', 1, 5000),
+(1, 2, '2025-10-25', '2025-11-05', '2025-11-03', 'Đã trả', 0, 0),
+(2, 3, '2025-11-02', '2025-11-12', NULL, 'Đang mượn', 0, 0);
+
+-- =======================
+-- BẢNG BORROW_HISTORY
+-- =======================
+CREATE TABLE IF NOT EXISTS borrow_history (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    book_id INT NOT NULL,
+    borrow_date DATETIME NOT NULL,
+    return_date DATETIME DEFAULT NULL,
+    status VARCHAR(50) NOT NULL
+) ENGINE=InnoDB;
+
+-- =======================
+-- BẢNG FINES
+-- =======================
+CREATE TABLE IF NOT EXISTS fines (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    borrow_id INT NOT NULL,
+    amount DECIMAL(10,2) NOT NULL,
+    paid TINYINT(1) DEFAULT 0,
+    date_paid DATETIME DEFAULT NULL,
+    FOREIGN KEY (borrow_id) REFERENCES borrows(id) ON DELETE CASCADE
+) ENGINE=InnoDB;
+
+-- Dữ liệu ví dụ cho bảng fines
+INSERT INTO fines (borrow_id, amount, paid)
+VALUES
+(1, 5000, 0);
+
 ```
 
 ### 4.4. Setup tham số kết nối
@@ -109,35 +217,35 @@ Mở file config.php (hoặc .env) trong project, chỉnh thông tin DB:
 ```bash
 
 <?php
-    function getDbConnection() {
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "quan_ly_doan_vien";
-        $port = 3306;
-        $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
-        if (!$conn) {
-            die("Kết nối database thất bại: " . mysqli_connect_error());
-        }
-        mysqli_set_charset($conn, "utf8");
-        return $conn;
-    }
+$host = "localhost";
+$user = "root";
+$pass = "123456789";       // XAMPP mặc định không có mật khẩu
+$db   = "ql_thuvien";
+
+$conn = new mysqli($host, $user, $pass, $db);
+
+if ($conn->connect_errno) {
+    die("❌ Kết nối thất bại: " . $conn->connect_error);
+}
+
+// echo "✅ Kết nối database thành công!";
 ?>
+
 ```
 ### 4.5. Chạy hệ thống
 Mở XAMPP Control Panel → Start Apache và MySQL
 
 Truy cập hệ thống:
-👉 http://localhost/index.php
+👉 http://localhost:8080/library_management/index.php
 
 ### 4.6. Đăng nhập lần đầu
 Hệ thống có thể cấp tài khoản admin 
 
 Sau khi đăng nhập Admin có thể:
 
-Tạo thông tin tổ chức đoàn (Đoàn trường, Liên chi, Chi đoàn)
+Quản lý sách
 
-Thêm đoàn viên và cấp tài khoản
+Quản lý Tài khoản người dùng
 
-Quản lý phân quyền theo cấp
+Quản lý mượn/trả sách
     
