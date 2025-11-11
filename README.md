@@ -56,8 +56,8 @@ Thay vì quản lý bằng sổ sách hoặc Excel rời rạc, hệ thống man
 <img width="1902" height="931" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-10%20234554.png?raw=true" />
 ### Trang dashboard admin
 <img width="1885" height="935" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20153923.png?raw=true" />
-### Trang dashboard cán bộ 
-<img width="1886" height="940" alt="image" src="https://github.com/user-attachments/assets/486fc55b-6c61-46e6-9c92-ca52ad7ad1b2" />
+### Trang dashboard quản lý sách
+<img width="1886" height="940" alt="image" src="https://github.com/Phungtheanh1705/quan-ly-thu-vien/blob/main/img/Screenshot%202025-11-11%20154046.png?raw=true" />
 ### Trang dashboard đoàn viên     
 <img width="1890" height="932" alt="image" src="https://github.com/user-attachments/assets/2b5e861a-8a59-4505-8149-4ceb1ec6b503" />
 ### Trang quản lý liên chi đoàn 
